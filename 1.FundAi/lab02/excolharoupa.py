@@ -6,6 +6,7 @@ def escolher_roupa(temperatura):
     else:
         return "Vestir uma t-shirt"
 
+
 # Exemplo de uso
 temperatura = int(input("Qual temperatura atual? : "))
 acao = escolher_roupa(temperatura)
