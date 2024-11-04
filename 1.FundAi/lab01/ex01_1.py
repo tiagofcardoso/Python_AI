@@ -9,3 +9,4 @@ if idade >= 18 and rendimento_mensal >= 1000:
     print("Parabéns! Você é elegível para o empréstimo.")
 else:
     print("Desculpe, você não é elegível para o empréstimo.")
+    

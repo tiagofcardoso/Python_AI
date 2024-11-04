@@ -28,8 +28,7 @@ C = "sol"  # Pode ser "sol", "frio" ou "neve"
 I = "historia"  # Pode ser "historia", "aventura" ou "relaxamento"
 D = "moderada"  # Pode ser "curta", "moderada" ou "longa"
 
-decisao = acoes["ACAO_DEFEITO"]  # Safe State
-
+decisao = acoes["ACAO_DEFEITO"]  # Safe State 
 
 # Decidir atividades com base nos fatores
 def motor_decisao(L, C, I, D):

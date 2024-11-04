@@ -17,3 +17,4 @@ print(
     if resultado == 1
     else "Voce não é elegível para o empréstimo."
 )
+

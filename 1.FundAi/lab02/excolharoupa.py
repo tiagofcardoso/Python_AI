@@ -12,3 +12,4 @@ temperatura = int(input("Qual temperatura atual? : "))
 acao = escolher_roupa(temperatura)
 print(f"Temperatura: {temperatura}°C")
 print(f"Ação: {acao}")
+

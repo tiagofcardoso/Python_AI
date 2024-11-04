@@ -14,7 +14,7 @@ I3 = "relaxamento"
 
 D1 = "curta"
 D2 = "moderada"
-D3 = "longa"
+D3 = "longa" 
 
 ACAO_DEFEITO = "Nenhuma atividade recomendada para esta combinação de fatores."
 A1 = "Visitar museus e fazer um passeio guiado pela cidade."

@@ -16,7 +16,7 @@ POSICOES = {
 # Configurações do obstáculo
 OBSTACULO_LARGURA = 20
 OBSTACULO_ALTURA = 200
-OBSTACULO_VELOCIDADE = 2
+OBSTACULO_VELOCIDADE = 2 
 
 
 def representar_e_inicializar_o_sistema():

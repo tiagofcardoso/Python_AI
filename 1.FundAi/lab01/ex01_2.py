@@ -13,3 +13,4 @@ probabilidade_pagamento = 0.01 * idade + 0.0005 * rendimento_mensal - 0.5
 
 # Imprime a probabilidade de pagamento
 print(f"A probabilidade de pagamento é de {probabilidade_pagamento:.2%}.")
+
