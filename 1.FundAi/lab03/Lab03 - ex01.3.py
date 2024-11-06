@@ -1,10 +1,10 @@
-import pandas as pd 
+import pandas as pd
 import numpy as np
 import pickle
 
-
+dataset = "/home/tiagocardoso/AIEngineer/1.FundAi/lab03/datasets/lldataset.csv"
 # Carregar o dataset
-df = pd.read_csv("dataset.csv")
+df = pd.read_csv(dataset)
 
 # Verificar a estrutura dos dados
 df.shape
@@ -35,7 +35,7 @@ min_value = min(len(df_train_pos), len(df_train_neg))
 
 # Subamostragem para balancear as classes
 df_train_final = pd.concat([df_train_pos.sample(n=min_value),
-df_train_neg.sample(n=min_value)])
+                            df_train_neg.sample(n=min_value)])
 
 # Verificar o balanceamento das classes
 df_train_final.LABEL_TARGET.value_counts()

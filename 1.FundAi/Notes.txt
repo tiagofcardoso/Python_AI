@@ -1,0 +1,5 @@
+No codigo de AI se utiliza o SAFE STATE
+O codigo tem que ser explicavel 
+Supervised Learning - rotulos e dados
+Unsupervised Learning - dados agrupados
+Reinforced Learning

@@ -1,19 +1,15 @@
-import pandas as pd
-import numpy as np
+import torch
 
-# Testando numpy
-array = np.array([1, 2, 3, 4, 5])
-print("Array numpy:", array)
-print("Soma do array numpy:", np.sum(array))
+def test_pytorch():
+    print("PyTorch version:", torch.__version__)
+    print("CUDA available:", torch.cuda.is_available())
+    if torch.cuda.is_available():
+        print("CUDA version:", torch.version.cuda)
+        print("Number of GPUs:", torch.cuda.device_count())
+        print("GPU Name:", torch.cuda.get_device_name(0))
 
-# Testando pandas
-data = {
-    'Nome': ['Ana', 'Bruno', 'Carlos', 'Diana'],
-    'Idade': [23, 35, 45, 28]
-}
-df = pd.DataFrame(data)
-print("\nDataFrame pandas:")
-print(df)
-
-print("\nEstatísticas descritivas do DataFrame pandas:")
-print(df.describe())
+if __name__ == "__main__":
+    try:
+        test_pytorch()
+    except Exception as e:
+        print("An error occurred:", e)

@@ -14,7 +14,7 @@ I3 = "relaxamento"
 
 D1 = "curta"
 D2 = "moderada"
-D3 = "longa" 
+D3 = "longa"
 
 ACAO_DEFEITO = "Nenhuma atividade recomendada para esta combinação de fatores."
 A1 = "Visitar museus e fazer um passeio guiado pela cidade."
@@ -24,7 +24,8 @@ A4 = "Ficar na praia, fazer yoga ao ar livre e relaxar no spa."
 A5 = "Fazer esqui, snowboarding e explorar trilhas de neve."
 
 # Definir os fatores
-tipo_destino = input("Tipo de destino? :")  # Pode ser "cidade", "praia" ou "montanha"
+# Pode ser "cidade", "praia" ou "montanha"
+tipo_destino = input("Tipo de destino? :")
 preferencia_climatica = input(
     "Preferencia Climatica? :"
 )  # Pode ser "sol", "frio" ou "neve"
