@@ -3,3 +3,11 @@ O codigo tem que ser explicavel
 Supervised Learning - rotulos e dados
 Unsupervised Learning - dados agrupados
 Reinforced Learning
+
+calibration, pesos, ativação
+CNN
+RNN
+TRANSFORMER
+
+rjam.pinto@gmail.com
+ 
