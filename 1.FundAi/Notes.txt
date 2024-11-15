@@ -11,3 +11,13 @@ TRANSFORMER
 
 rjam.pinto@gmail.com
  
+
+ Processamento de imagens (filtros, transformações, etc.)
+Detecção e reconhecimento de rostos
+Detecção de objetos
+Rastreamento de objetos
+Reconhecimento de gestos
+Reconstrução 3D
+Análise de movimento
+Segmentação de imagens
+Realidade aumentada

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão de Receita Mensal (ML)</title>
+</head>
+<body>
+    <h2>Prever Receita Mensal (scikit-learn)</h2>
+    <form action="/prever/ml" method="post">
+        <label for="gasto_publicidade">Gasto em Publicidade (em milhares):</label>
+        <input type="number" step="0.01" name="gasto_publicidade" value="{{ gasto_publicidade }}" required><br><br>
+
+        <label for="satisfacao_cliente">Satisfação do Cliente (1-5):</label>
+        <input type="number" step="0.1" name="satisfacao_cliente" value="{{ satisfacao_cliente }}" required><br><br>
+
+        <label for="novos_clientes">Novos Clientes:</label>
+        <input type="number" name="novos_clientes" value="{{ novos_clientes }}" required><br><br>
+
+        <label for="sazonalidade">Sazonalidade (1 para época festiva, 0 para fora de época):</label>
+        <input type="number" name="sazonalidade" value="{{ sazonalidade }}" required><br><br>
+
+        <button type="submit">Prever Receita</button>
+    </form>
+
+    {% if prediction_text %}
+        <h3>{{ prediction_text }}</h3>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial - Previsão de Receita</title>
+</head>
+<body>
+    <h1>Página Inicial</h1>
+    <p>Escolha um modelo para fazer previsões de receita:</p>
+    <ul>
+        <li><a href="{{ url_for('home_ml') }}">Previsão com Regressão Linear Múltipla (scikit-learn)</a></li>
+        <li><a href="{{ url_for('home_dl') }}">Previsão com Modelo PyTorch (Deep Learning)</a></li>
+    </ul>
+</body>
+</html>
