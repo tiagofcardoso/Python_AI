@@ -31,7 +31,8 @@ def home_dl():
 
 
 # Carregar o modelo treinado em scikit-learn
-modelo = joblib.load("Regressao_Linear_Múltipla_MAE_0.26.pkl")
+modelo = joblib.load(
+    "/home/tiagocardoso/AIEngineer/1.FundAi/lab06/lab06.1/web/Regressao_Linear_Multipla_MAE_0.26.pkl")
 
 # Definir rota para a previsão com o modelo scikit-learn
 
@@ -78,7 +79,8 @@ class ModeloRegressaoFlexivel(nn.Module):
 imput_dim = 4
 hidden_layers = [16]
 modelo_pytorch = ModeloRegressaoFlexivel(imput_dim, hidden_layers)
-modelo_pytorch.load_state_dict(torch.load('modelo_melhor_[16]_MAE_0.09.pth'))
+modelo_pytorch.load_state_dict(torch.load(
+    '/home/tiagocardoso/AIEngineer/1.FundAi/lab06/lab06.1/web/modelo_melhor_[64]_MAE_0.11.pth'))
 modelo_pytorch.eval()
 
 

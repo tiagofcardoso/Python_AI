@@ -45,7 +45,7 @@ lr_multi.fit(X_train, y_train)
 y_val_pred_multi = lr_multi.predict(X_val)
 r2_multi = r2_score(y_val, y_val_pred_multi)
 mae_multi = mean_absolute_error(y_val, y_val_pred_multi)
-model_performance['Regressão Linear Multipla'] = (
+model_performance['Regressao_Linear_Multipla'] = (
     lr_multi, r2_multi, mae_multi)
 
 print("R² de Validação:", r2_multi)
@@ -101,11 +101,13 @@ print()
 # TODO: Selecionar o melhor modelo com base no R² de validação
 print("Selecionando o melhor modelo...")
 # print(model_performance)
+output_dir = '/home/tiagocardoso/AIEngineer/1.FundAi/lab06/lab06.1/web/'
 melhor_nome, (melhor_modelo, melhor_r2, melhor_mae) = max(
     model_performance.items(), key=lambda x: x[1][1])
 print("Melhor modelo:", melhor_nome)
 
 # TODO: Exportar o melhor modelo com o MAE no nome do arquivo
-joblib.dump(lr_limple, 'lr_limple.pkl')
+joblib.dump(lr_limple, output_dir + 'lr_limple.pkl')
 nome_arquivo = f"{melhor_nome}_MAE_{melhor_mae:.2f}.pkl"
-joblib.dump(melhor_modelo, nome_arquivo)
+joblib.dump(melhor_modelo, output_dir + nome_arquivo)
+print(output_dir + '/' + nome_arquivo)

@@ -111,7 +111,7 @@ for estrutura in estruras_testadas:
 
         # Salvar o modelo atual como o melhor até agora com nome descritivo
         nome_arquivo = f"modelo_melhor_{melhor_estrutura}_MAE_{mae:.2f}.pth"
-        output_dir = '/home/tiagocardoso/AIEngineer/1.FundAi/lab06/lab06.1/'
+        output_dir = '/home/tiagocardoso/AIEngineer/1.FundAi/lab06/lab06.1/web/'
         torch.save(melhor_modelo.state_dict(), output_dir + nome_arquivo)
         print(f"\nNovo melhor modelo encontrado e salvo como '{
               nome_arquivo}' com estrutura {melhor_estrutura} - MAE: {melhor_mae:.2f}")
