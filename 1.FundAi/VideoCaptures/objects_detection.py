@@ -2,14 +2,20 @@ import cv2
 import numpy as np
 import cv2.dnn as dnn
 
+yolo_config = {
+    "model": "/home/tiagocardoso/AIEngineer/1.FundAi/VideoCaptures/config_files/yolov3.weights",
+    "config": "/home/tiagocardoso/AIEngineer/1.FundAi/VideoCaptures/config_files/yolov3.cfg",
+    "classes": "/home/tiagocardoso/AIEngineer/1.FundAi/VideoCaptures/config_files/coco.names"
+}
+
 # Carregar o modelo YOLO
-net = cv2.dnn.readNet("./config_files/yolov3.weights", "./config_files/yolov3.cfg")
+net = cv2.dnn.readNet(yolo_config["model"], yolo_config["config"])
 layer_names = net.getLayerNames()
 output_layers = [layer_names[i - 1] for i in net.getUnconnectedOutLayers()]
 
 
 # Carregar os nomes das classes
-with open("./config_files/coco.names", "r") as f:
+with open(yolo_config["classes"], "r") as f:
     classes = [line.strip() for line in f.readlines()]
 
 # Definir cores para cada classe
