@@ -39,7 +39,7 @@ def get_ai_response(user_input):
     # Replace with your actual API call
     api_url = "YOUR_API_ENDPOINT"
     # Or other authentication method
-    headers = {"Authorization": "AIzaSyCUuakVTFI3gqmn2HyQumZL2UO3Z75qAEI"}
+    headers = {"Authorization": "YOUR_API_KEY"}
     data = {"text": user_input}  # Adjust data structure as needed
 
     response = requests.post(api_url, headers=headers, json=data)
@@ -80,14 +80,12 @@ playsound(output_audio)
 
 # ... (Import statements and API setup from above) ...
 
-
 def conversational_ai(audio_file):
     transcript = transcribe_audio(audio_file)
     ai_answer = get_ai_response(transcript)
     output_audio = "response.wav"
     synthesize_speech(ai_answer, output_audio)
     playsound(output_audio)
-
 
 # Example usage
 conversational_ai("audio.wav")
