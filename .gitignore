@@ -10,4 +10,5 @@ Módulo 01 - OpenCV e Trabalho de Imagens.pdf
 .venv/
 *.pdf
 *.avi
+yolo*
 
