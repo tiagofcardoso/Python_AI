@@ -6,7 +6,7 @@ from ultralytics.utils.plotting import Annotator, colors
 model = YOLO("yolo11x-seg.pt")
 
 # Captura de vídeo
-cap =  cv2.VideoCapture(2)
+cap = cv2.VideoCapture(2)
 cap.set(3, 1280)
 cap.set(4, 720)
 
@@ -45,13 +45,12 @@ while True:
             annotator.seg_bbox(mask=mask, mask_color=color,
                                label=str(track_id),
                                txt_color=txt_color)
-            
+
     # Escrever o fotograma anotado no vídeo de saída
     out.write(im0)
 
     # Mostrar o fotograma anotado numa janela
     cv2.imshow("instance-segmentation-object-tracking", im0)
-
 
     # Se o utilizador carregar na tecla 'q', sair do ciclo
     if cv2.waitKey(1) & 0xFF == ord("q"):

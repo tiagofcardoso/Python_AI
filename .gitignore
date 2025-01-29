@@ -11,4 +11,13 @@ Módulo 01 - OpenCV e Trabalho de Imagens.pdf
 *.pdf
 *.avi
 yolo*
-
+*/venv/
+*/.venv/
+3.LLMs/4.CHATBOT/chatbot
+3.LLMs/2.BERT/llmenv
+3.LLMs/Modulos LLMs
+VideoCaptures/config_files
+*/.ipynb_checkpoints/
+*/.idea/
+Fall_detection
+Fall_detection/fall_detection
