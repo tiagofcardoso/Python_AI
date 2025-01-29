@@ -1,0 +1,224 @@
+2025-01-03 11:25:03,754 - INFO - Scraped: https://www.python.org/doc/av/
+2025-01-03 11:25:03,754 - INFO - Pages scraped: 1
+2025-01-03 11:25:04,880 - INFO - Scraped: https://www.python.org/success-stories/category/education/
+2025-01-03 11:25:04,880 - INFO - Pages scraped: 2
+2025-01-03 11:25:05,997 - INFO - Scraped: https://www.python.org/psf/get-involved/
+2025-01-03 11:25:05,998 - INFO - Pages scraped: 3
+2025-01-03 11:25:07,119 - INFO - Scraped: https://www.python.org/success-stories/category/engineering/
+2025-01-03 11:25:07,120 - INFO - Pages scraped: 4
+2025-01-03 11:25:08,248 - INFO - Scraped: https://www.python.org/events/
+2025-01-03 11:25:08,248 - INFO - Pages scraped: 5
+2025-01-03 11:25:09,365 - INFO - Scraped: https://www.python.org/success-stories/category/government/
+2025-01-03 11:25:09,366 - INFO - Pages scraped: 6
+2025-01-03 11:25:10,604 - INFO - Scraped: https://www.python.org/doc/essays/
+2025-01-03 11:25:10,604 - INFO - Pages scraped: 7
+2025-01-03 11:25:11,840 - INFO - Scraped: https://www.python.org/psf/workgroups/
+2025-01-03 11:25:11,840 - INFO - Pages scraped: 8
+2025-01-03 11:25:12,953 - INFO - Scraped: https://www.python.org/downloads/source/
+2025-01-03 11:25:12,953 - INFO - Pages scraped: 9
+2025-01-03 11:25:53,166 - INFO - Scraped: https://www.python.org/ftp/python/3.8.7/Python-3.8.7rc1.tar.xz
+2025-01-03 11:25:53,166 - INFO - Pages scraped: 10
+2025-01-03 11:26:48,457 - INFO - Scraped: https://www.python.org/ftp/python/3.9.4/Python-3.9.4.tgz
+2025-01-03 11:26:48,457 - INFO - Pages scraped: 11
+2025-01-03 11:27:21,033 - INFO - Scraped: https://www.python.org/ftp/python/3.5.1/Python-3.5.1.tar.xz
+2025-01-03 11:27:21,033 - INFO - Pages scraped: 12
+2025-01-03 11:27:22,063 - INFO - Scraped: https://www.python.org/downloads/release/python-237/
+2025-01-03 11:27:22,064 - INFO - Pages scraped: 13
+2025-01-03 11:27:23,101 - INFO - Scraped: https://www.python.org/downloads/release/python-368/
+2025-01-03 11:27:23,102 - INFO - Pages scraped: 14
+2025-01-03 11:27:24,259 - INFO - Scraped: https://www.python.org/downloads/release/python-3120b1/
+2025-01-03 11:27:24,260 - INFO - Pages scraped: 15
+2025-01-03 11:28:10,548 - INFO - Scraped: https://www.python.org/ftp/python/3.5.3/Python-3.5.3rc1.tgz
+2025-01-03 11:28:10,548 - INFO - Pages scraped: 16
+2025-01-03 11:29:18,095 - INFO - Scraped: https://wiki.python.org/moin/PythonBooks
+2025-01-03 11:29:18,095 - INFO - Pages scraped: 1
+2025-01-03 11:29:19,240 - INFO - Scraped: https://wiki.python.org/moin/GuiBooks
+2025-01-03 11:29:19,240 - INFO - Pages scraped: 2
+2025-01-03 11:29:21,172 - INFO - Scraped: https://wiki.python.org/moin/Courses
+2025-01-03 11:29:21,172 - INFO - Pages scraped: 3
+2025-01-03 11:29:22,351 - INFO - Scraped: https://wiki.python.org/moin/WebProgrammingBooks
+2025-01-03 11:29:22,351 - INFO - Pages scraped: 4
+2025-01-03 11:29:23,524 - INFO - Scraped: https://wiki.python.org/moin/SpanishPythonBooks
+2025-01-03 11:29:23,524 - INFO - Pages scraped: 5
+2025-01-03 11:29:26,808 - INFO - Scraped: https://wiki.python.org/moin/WebProgrammingBooks?action=info
+2025-01-03 11:29:26,808 - INFO - Pages scraped: 6
+2025-01-03 11:29:28,062 - INFO - Scraped: https://wiki.python.org/moin/alireza.azimzadeh.alimp5
+2025-01-03 11:29:28,062 - INFO - Pages scraped: 7
+2025-01-03 11:30:10,511 - INFO - Scraped: https://wiki.python.org/moin/PythonBooks
+2025-01-03 11:30:10,512 - INFO - Pages scraped: 1
+2025-01-03 11:30:12,683 - INFO - Scraped: https://wiki.python.org/moin/GuiBooks
+2025-01-03 11:30:12,684 - INFO - Pages scraped: 2
+2025-01-03 11:30:14,010 - INFO - Scraped: https://wiki.python.org/moin/FrenchPythonBooks
+2025-01-03 11:30:14,010 - INFO - Pages scraped: 3
+2025-01-03 11:30:15,346 - INFO - Scraped: https://wiki.python.org/moin/WebProgrammingBooks
+2025-01-03 11:30:15,346 - INFO - Pages scraped: 4
+2025-01-03 11:30:17,527 - INFO - Scraped: https://wiki.python.org/moin/IntroductoryBooks
+2025-01-03 11:30:17,527 - INFO - Pages scraped: 5
+2025-01-03 11:30:18,761 - INFO - Scraped: https://wiki.python.org/moin/CherryPy
+2025-01-03 11:30:18,761 - INFO - Pages scraped: 6
+2025-01-03 11:30:19,959 - INFO - Scraped: https://wiki.python.org/moin/IntroductoryBooks?action=login
+2025-01-03 11:30:19,959 - INFO - Pages scraped: 7
+2025-01-03 11:30:21,382 - INFO - Scraped: https://wiki.python.org/moin/IntroductoryBooks?action=recoverpass
+2025-01-03 11:30:21,382 - INFO - Pages scraped: 8
+2025-01-03 11:30:21,611 - ERROR - Error scraping https://wiki.python.org/moin/MapInfo: 404 Client Error: NOT FOUND for url: https://wiki.python.org/moin/MapInfo
+2025-01-03 11:30:21,611 - INFO - Scraped: https://wiki.python.org/moin/MapInfo
+2025-01-03 11:30:21,611 - INFO - Pages scraped: 8
+2025-01-03 11:30:23,024 - INFO - Scraped: https://wiki.python.org/moin/WindowsBooks
+2025-01-03 11:30:23,024 - INFO - Pages scraped: 9
+2025-01-03 11:30:24,657 - INFO - Scraped: https://wiki.python.org/moin/IntroductoryBooks?action=login&login=login&openid_identifier=https://login.launchpad.net/
+2025-01-03 11:30:24,658 - INFO - Pages scraped: 10
+2025-01-03 11:30:26,099 - INFO - Scraped: https://wiki.python.org/moin/PythonBooks?action=login
+2025-01-03 11:30:26,099 - INFO - Pages scraped: 11
+2025-01-03 11:30:28,268 - ERROR - Error scraping https://wiki.python.org/moin/Ender: 404 Client Error: NOT FOUND for url: https://wiki.python.org/moin/Ender
+2025-01-03 11:30:28,268 - INFO - Scraped: https://wiki.python.org/moin/Ender
+2025-01-03 11:30:28,268 - INFO - Pages scraped: 11
+2025-01-03 11:30:29,482 - INFO - Scraped: https://wiki.python.org/moin/WindowsBooks?action=AttachFile
+2025-01-03 11:30:29,483 - INFO - Pages scraped: 12
+2025-01-03 11:30:31,725 - INFO - Scraped: https://wiki.python.org/moin/WebProgrammingBooks?action=AttachFile
+2025-01-03 11:30:31,725 - INFO - Pages scraped: 13
+2025-01-03 11:30:35,030 - INFO - Scraped: https://wiki.python.org/moin/IntroductoryBooks?action=login&login=login&openid_identifier=https://www.myopenid.com/
+2025-01-03 11:30:35,031 - INFO - Pages scraped: 14
+2025-01-03 11:30:38,180 - INFO - Scraped: https://wiki.python.org/moin/CategoryPythonInEducation
+2025-01-03 11:30:38,180 - INFO - Pages scraped: 15
+2025-01-03 11:30:40,839 - INFO - Scraped: https://wiki.python.org/moin/CategoryDocumentation
+2025-01-03 11:30:40,839 - INFO - Pages scraped: 16
+2025-01-03 11:30:44,028 - ERROR - Error scraping https://wiki.python.org/moin/CAPI%20CookBook?highlight=%28CategoryDocumentation%29: 503 Server Error: Service Unavailable for url: https://wiki.python.org/moin/CAPI%20CookBook?highlight=%28CategoryDocumentation%29
+2025-01-03 11:30:44,028 - INFO - Scraped: https://wiki.python.org/moin/CAPI%20CookBook?highlight=%28CategoryDocumentation%29
+2025-01-03 11:30:44,029 - INFO - Pages scraped: 16
+2025-01-03 11:30:56,408 - INFO - Scraped: https://wiki.python.org/moin/Courses
+2025-01-03 11:30:56,409 - INFO - Pages scraped: 17
+2025-01-03 11:30:57,656 - INFO - Scraped: https://wiki.python.org/moin/FrenchPythonBooks?action=AttachFile
+2025-01-03 11:30:57,656 - INFO - Pages scraped: 18
+2025-01-03 11:30:58,865 - INFO - Scraped: https://wiki.python.org/moin/PythonLibraryReference/OptionalOperatingSystemServices?highlight=%28CategoryDocumentation%29
+2025-01-03 11:30:58,865 - INFO - Pages scraped: 19
+2025-01-03 11:31:00,139 - INFO - Scraped: https://wiki.python.org/moin/UkrainianPythonBooks
+2025-01-03 11:31:00,140 - INFO - Pages scraped: 20
+2025-01-03 11:31:01,351 - INFO - Scraped: https://wiki.python.org/moin/CategoryDocumentation?action=info
+2025-01-03 11:31:01,351 - INFO - Pages scraped: 21
+2025-01-03 11:31:03,475 - INFO - Scraped: https://wiki.python.org/moin/IntroductoryBooks?highlight=%28CategoryDocumentation%29
+2025-01-03 11:31:03,475 - INFO - Pages scraped: 22
+2025-01-03 11:31:03,690 - ERROR - Error scraping https://wiki.python.org/moin/PythonLibraryReference/OptionalOperatingSystemServices/SocketModule: 404 Client Error: NOT FOUND for url: https://wiki.python.org/moin/PythonLibraryReference/OptionalOperatingSystemServices/SocketModule
+2025-01-03 11:31:03,690 - INFO - Scraped: https://wiki.python.org/moin/PythonLibraryReference/OptionalOperatingSystemServices/SocketModule
+2025-01-03 11:31:03,691 - INFO - Pages scraped: 22
+2025-01-03 11:31:06,969 - INFO - Scraped: https://wiki.python.org/moin/GermanPythonBooks
+2025-01-03 11:31:06,969 - INFO - Pages scraped: 23
+2025-01-03 11:31:08,187 - INFO - Scraped: https://wiki.python.org/moin/GermanPythonBooks?action=info
+2025-01-03 11:31:08,188 - INFO - Pages scraped: 24
+2025-01-03 11:31:10,430 - INFO - Scraped: https://wiki.python.org/moin/DocTools?highlight=%28CategoryDocumentation%29
+2025-01-03 11:31:10,431 - INFO - Pages scraped: 25
+2025-01-03 11:31:12,685 - INFO - Scraped: https://wiki.python.org/moin/PythonBooks?action=newaccount
+2025-01-03 11:31:12,685 - INFO - Pages scraped: 26
+2025-01-03 11:31:14,020 - INFO - Scraped: https://wiki.python.org/moin/CategoryCategory
+2025-01-03 11:31:14,020 - INFO - Pages scraped: 27
+2025-01-03 11:31:15,243 - INFO - Scraped: https://wiki.python.org/moin/CategoryCategory?action=AttachFile
+2025-01-03 11:31:15,243 - INFO - Pages scraped: 28
+2025-01-03 11:31:16,480 - INFO - Scraped: https://wiki.python.org/moin/PythonLibraryReference/ThePythonProfiler/ReferenceManual?highlight=%28CategoryDocumentation%29
+2025-01-03 11:31:16,481 - INFO - Pages scraped: 29
+2025-01-03 11:31:19,753 - INFO - Scraped: https://wiki.python.org/moin/ZopeBooks?highlight=%28CategoryDocumentation%29
+2025-01-03 11:31:19,753 - INFO - Pages scraped: 30
+2025-01-03 11:31:19,972 - ERROR - Error scraping https://wiki.python.org/moin/McNeil: 404 Client Error: NOT FOUND for url: https://wiki.python.org/moin/McNeil
+2025-01-03 11:31:19,973 - INFO - Scraped: https://wiki.python.org/moin/McNeil
+2025-01-03 11:31:19,973 - INFO - Pages scraped: 30
+2025-01-03 11:31:21,203 - ERROR - Error scraping https://wiki.python.org/moin/GraphFrames: 404 Client Error: NOT FOUND for url: https://wiki.python.org/moin/GraphFrames
+2025-01-03 11:31:21,204 - INFO - Scraped: https://wiki.python.org/moin/GraphFrames
+2025-01-03 11:31:21,204 - INFO - Pages scraped: 30
+2025-01-03 11:31:22,416 - INFO - Scraped: https://wiki.python.org/moin/CategoryDocumentation?action=info&max_count=5&offset=0
+2025-01-03 11:31:22,416 - INFO - Pages scraped: 31
+2025-01-03 11:31:23,656 - INFO - Scraped: https://wiki.python.org/moin/GermanPythonBooks?action=diff&rev1=7&rev2=8
+2025-01-03 11:31:23,657 - INFO - Pages scraped: 32
+2025-01-03 11:31:24,825 - INFO - Scraped: https://wiki.python.org/moin/CategoryDocumentation?action=info&max_count=50&offset=0
+2025-01-03 11:31:24,825 - INFO - Pages scraped: 33
+2025-01-03 11:31:26,464 - INFO - Scraped: https://wiki.python.org/moin/PythonSpeed/PerformanceTips?highlight=%28CategoryDocumentation%29
+2025-01-03 11:31:26,465 - INFO - Pages scraped: 34
+2025-01-03 11:31:28,759 - INFO - Scraped: https://wiki.python.org/moin/EmbeddingPythonTutorial?highlight=%28CategoryDocumentation%29
+2025-01-03 11:31:28,759 - INFO - Pages scraped: 35
+2025-01-03 11:31:30,101 - INFO - Scraped: https://wiki.python.org/moin/CategoryDevelopmentProcess?highlight=%28%5CbCategoryCategory%5Cb%29
+2025-01-03 11:31:30,101 - INFO - Pages scraped: 36
+2025-01-03 11:31:32,352 - INFO - Scraped: https://wiki.python.org/moin/GermanPythonBooks?action=diff&rev1=11&rev2=12
+2025-01-03 11:31:32,352 - INFO - Pages scraped: 37
+2025-01-03 11:31:33,632 - INFO - Scraped: https://wiki.python.org/moin/PythonSpeed/PerformanceTips?action=info
+2025-01-03 11:31:33,632 - INFO - Pages scraped: 38
+2025-01-03 11:31:34,827 - INFO - Scraped: https://wiki.python.org/moin/GermanPythonBooks?action=recall&rev=6
+2025-01-03 11:31:34,828 - INFO - Pages scraped: 39
+2025-01-03 11:31:36,089 - INFO - Scraped: https://wiki.python.org/moin/PythonSpeed/PerformanceTips?action=info&max_count=200&offset=0
+2025-01-03 11:31:36,090 - INFO - Pages scraped: 40
+2025-01-03 11:31:37,335 - INFO - Scraped: https://wiki.python.org/moin/GermanPythonBooks?action=diff&rev1=19&rev2=20
+2025-01-03 11:31:37,335 - INFO - Pages scraped: 41
+2025-01-03 11:31:39,623 - INFO - Scraped: https://wiki.python.org/moin/PythonBooks#line-113
+2025-01-03 11:31:39,624 - INFO - Pages scraped: 42
+2025-01-03 11:31:40,850 - INFO - Scraped: https://wiki.python.org/moin/PySerial?highlight=%28CategoryDocumentation%29
+2025-01-03 11:31:40,850 - INFO - Pages scraped: 43
+2025-01-03 11:31:42,712 - INFO - Scraped: https://wiki.python.org/moin/PythonSpeed/PerformanceTips?action=recall&rev=65
+2025-01-03 11:31:42,712 - INFO - Pages scraped: 44
+2025-01-03 11:31:44,171 - INFO - Scraped: https://wiki.python.org/moin/PythonSpeed/PerformanceTips?action=recall&rev=85
+2025-01-03 11:31:44,171 - INFO - Pages scraped: 45
+2025-01-03 11:31:45,368 - INFO - Scraped: https://wiki.python.org/moin/GermanPythonBooks?action=diff&rev1=11&rev2=13
+2025-01-03 11:31:45,368 - INFO - Pages scraped: 46
+2025-01-03 11:31:47,665 - INFO - Scraped: https://wiki.python.org/moin/CategoryEditors?highlight=%28%5CbCategoryCategory%5Cb%29
+2025-01-03 11:31:47,665 - INFO - Pages scraped: 47
+2025-01-03 11:31:48,890 - INFO - Scraped: https://wiki.python.org/moin/PythonImplementations
+2025-01-03 11:31:48,891 - INFO - Pages scraped: 48
+2025-01-03 11:31:50,065 - INFO - Scraped: https://wiki.python.org/moin/PythonLibraryReference/OptionalOperatingSystemServices?action=AttachFile
+2025-01-03 11:31:50,066 - INFO - Pages scraped: 49
+2025-01-03 11:31:51,600 - INFO - Scraped: https://wiki.python.org/moin/GermanPythonBooks?action=diff&rev1=2&rev2=3
+2025-01-03 11:31:51,601 - INFO - Pages scraped: 50
+2025-01-03 11:31:54,787 - ERROR - Error scraping https://wiki.python.org/moin/PythonSpeed/PerformanceTips?action=recall&rev=48: 503 Server Error: Service Unavailable for url: https://wiki.python.org/moin/PythonSpeed/PerformanceTips?action=recall&rev=48
+2025-01-03 11:31:54,788 - INFO - Scraped: https://wiki.python.org/moin/PythonSpeed/PerformanceTips?action=recall&rev=48
+2025-01-03 11:31:54,788 - INFO - Pages scraped: 50
+2025-01-03 11:32:06,446 - INFO - Scraped: https://wiki.python.org/moin/EmbeddingPythonTutorial?action=login
+2025-01-03 11:32:06,447 - INFO - Pages scraped: 51
+2025-01-03 11:32:07,719 - INFO - Scraped: https://wiki.python.org/moin/PythonSpeed/PerformanceTips?action=info&max_count=100&offset=0
+2025-01-03 11:32:07,719 - INFO - Pages scraped: 52
+2025-01-03 11:32:07,893 - ERROR - Error scraping https://wiki.python.org/moin/BenDicken: 404 Client Error: NOT FOUND for url: https://wiki.python.org/moin/BenDicken
+2025-01-03 11:32:07,893 - INFO - Scraped: https://wiki.python.org/moin/BenDicken
+2025-01-03 11:32:07,893 - INFO - Pages scraped: 52
+2025-01-03 11:32:09,115 - INFO - Scraped: https://wiki.python.org/moin/PythonBooks#Python_is_not_C
+2025-01-03 11:32:09,116 - INFO - Pages scraped: 53
+2025-01-03 11:32:11,365 - INFO - Scraped: https://wiki.python.org/moin/PythonBooks#Compilers
+2025-01-03 11:32:11,366 - INFO - Pages scraped: 54
+2025-01-03 11:32:13,731 - INFO - Scraped: https://wiki.python.org/moin/GermanPythonBooks?action=diff&rev1=14&rev2=15
+2025-01-03 11:32:13,731 - INFO - Pages scraped: 55
+2025-01-03 11:32:13,935 - ERROR - Error scraping https://wiki.python.org/moin/EmacsVsVi?highlight=%28CategoryEditors%29: 503 Server Error: Service Unavailable for url: https://wiki.python.org/moin/EmacsVsVi?highlight=%28CategoryEditors%29
+2025-01-03 11:32:13,935 - INFO - Scraped: https://wiki.python.org/moin/EmacsVsVi?highlight=%28CategoryEditors%29
+2025-01-03 11:32:13,935 - INFO - Pages scraped: 55
+2025-01-03 11:32:14,548 - ERROR - Error scraping https://wiki.python.org/moin/PythonSpeed/PerformanceTips?action=recall&rev=68: 503 Server Error: Service Unavailable for url: https://wiki.python.org/moin/PythonSpeed/PerformanceTips?action=recall&rev=68
+2025-01-03 11:32:14,548 - INFO - Scraped: https://wiki.python.org/moin/PythonSpeed/PerformanceTips?action=recall&rev=68
+2025-01-03 11:32:14,548 - INFO - Pages scraped: 55
+2025-01-03 11:32:15,171 - ERROR - Error scraping https://wiki.python.org/moin/CategoryAskingForHelp?highlight=%28%5CbCategoryCategory%5Cb%29: 503 Server Error: Service Unavailable for url: https://wiki.python.org/moin/CategoryAskingForHelp?highlight=%28%5CbCategoryCategory%5Cb%29
+2025-01-03 11:32:15,171 - INFO - Scraped: https://wiki.python.org/moin/CategoryAskingForHelp?highlight=%28%5CbCategoryCategory%5Cb%29
+2025-01-03 11:32:15,171 - INFO - Pages scraped: 55
+2025-01-03 11:32:27,104 - INFO - Scraped: https://wiki.python.org/moin/PythonSpeed/PerformanceTips?action=diff&rev1=82&rev2=83
+2025-01-03 11:32:27,105 - INFO - Pages scraped: 56
+2025-01-03 11:32:28,361 - INFO - Scraped: https://wiki.python.org/moin/PortuguesePythonBooks
+2025-01-03 11:32:28,361 - INFO - Pages scraped: 57
+2025-01-03 11:32:29,621 - INFO - Scraped: https://wiki.python.org/moin/PythonLibraryReference/SunOsSpecificServices?highlight=%28CategoryDocumentation%29
+2025-01-03 11:32:29,621 - INFO - Pages scraped: 58
+2025-01-03 11:32:32,199 - INFO - Scraped: https://wiki.python.org/moin/PythonSpeed/PerformanceTips?action=recall&rev=40
+2025-01-03 11:32:32,199 - INFO - Pages scraped: 59
+2025-01-03 11:32:34,719 - INFO - Scraped: https://wiki.python.org/moin/PythonSpeed/PerformanceTips?action=recall&rev=33
+2025-01-03 11:32:34,719 - INFO - Pages scraped: 60
+2025-01-03 11:32:34,929 - ERROR - Error scraping https://wiki.python.org/moin/FrankHenigman: 404 Client Error: NOT FOUND for url: https://wiki.python.org/moin/FrankHenigman
+2025-01-03 11:32:34,930 - INFO - Scraped: https://wiki.python.org/moin/FrankHenigman
+2025-01-03 11:32:34,930 - INFO - Pages scraped: 60
+2025-01-03 11:32:36,607 - INFO - Scraped: https://wiki.python.org/moin/PythonSpeed/PerformanceTips?action=recall&rev=58
+2025-01-03 11:32:36,608 - INFO - Pages scraped: 61
+2025-01-03 11:32:37,078 - ERROR - Error scraping https://wiki.python.org/moin/GitHub: 404 Client Error: NOT FOUND for url: https://wiki.python.org/moin/GitHub
+2025-01-03 11:32:37,078 - INFO - Scraped: https://wiki.python.org/moin/GitHub
+2025-01-03 11:32:37,078 - INFO - Pages scraped: 61
+2025-01-03 11:32:38,306 - INFO - Scraped: https://wiki.python.org/moin/GermanPythonBooks?action=diff&rev1=10&rev2=12
+2025-01-03 11:32:38,307 - INFO - Pages scraped: 62
+2025-01-03 11:32:39,525 - INFO - Scraped: https://wiki.python.org/moin/GermanPythonBooks?action=recall&rev=20
+2025-01-03 11:32:39,525 - INFO - Pages scraped: 63
+2025-01-03 11:32:40,806 - INFO - Scraped: https://wiki.python.org/moin/GermanPythonBooks?action=diff&rev1=18&rev2=19
+2025-01-03 11:32:40,807 - INFO - Pages scraped: 64
+2025-01-03 11:32:42,200 - INFO - Scraped: https://wiki.python.org/moin/PythonSpeed/PerformanceTips?action=diff&rev1=3&rev2=4
+2025-01-03 11:32:42,200 - INFO - Pages scraped: 65
+2025-01-03 11:32:42,405 - ERROR - Error scraping https://wiki.python.org/moin/PythonLibraryReference/OptionalOperatingSystemServices/SignalModule: 404 Client Error: NOT FOUND for url: https://wiki.python.org/moin/PythonLibraryReference/OptionalOperatingSystemServices/SignalModule
+2025-01-03 11:32:42,405 - INFO - Scraped: https://wiki.python.org/moin/PythonLibraryReference/OptionalOperatingSystemServices/SignalModule
+2025-01-03 11:32:42,406 - INFO - Pages scraped: 65
+2025-01-03 11:32:43,626 - INFO - Scraped: https://wiki.python.org/moin/PythonLibraryReference/HistoryAndLicense?highlight=%28CategoryDocumentation%29
+2025-01-03 11:32:43,626 - INFO - Pages scraped: 66
+2025-01-03 11:32:44,855 - INFO - Scraped: https://wiki.python.org/moin/GermanPythonBooks?action=info&max_count=10&offset=0
+2025-01-03 11:32:44,855 - INFO - Pages scraped: 67
+2025-01-03 11:32:46,160 - INFO - Scraped: https://wiki.python.org/moin/CategoryDistutilsCookbook?highlight=%28%5CbCategoryCategory%5Cb%29
+2025-01-03 11:32:46,160 - INFO - Pages scraped: 68
