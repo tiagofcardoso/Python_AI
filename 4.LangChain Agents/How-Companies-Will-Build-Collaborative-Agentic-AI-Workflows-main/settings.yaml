@@ -1,0 +1,50 @@
+# Application Settings
+app:
+  name: "Project Proposal Summarizer"
+  description: "AI-powered analysis and summarization of project proposals"
+  version: "1.0.0"
+
+# Logging Configuration
+logging:
+  level: INFO
+  format: "%(asctime)s [%(levelname)s] %(message)s"
+  datefmt: "%Y-%m-%d %H:%M:%S"
+  console:
+    enabled: true
+    colored: true
+  file:
+    enabled: false
+    path: "logs/proposal_analysis.log"
+    rotation: "5 MB"
+    backup_count: 5
+
+# Display Settings
+display:
+  colors:
+    header: '\033[95m'
+    blue: '\033[94m'
+    cyan: '\033[96m'
+    green: '\033[92m'
+    yellow: '\033[93m'
+    red: '\033[91m'
+    end: '\033[0m'
+    bold: '\033[1m'
+    underline: '\033[4m'
+  symbols:
+    info: 'ℹ'
+    debug: '🔍'
+    warning: '⚠'
+    error: '❌'
+    success: '✅'
+    highlight: '🔆'
+
+# Process Configuration
+process:
+  random_delay:
+    min: 0.05
+    max: 0.3
+  summarization:
+    model: "sshleifer/distilbart-cnn-12-6"
+    max_length: 150
+    min_length: 50
+    do_sample: false

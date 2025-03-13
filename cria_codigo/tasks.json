@@ -1,0 +1,50 @@
+[
+    {
+        "tarefa": "calcular a soma dos primeiros 10 números naturais",
+        "nome_base": "codigo_soma_naturais",
+        "linguagem": "Python",
+        "extensao": ".py"
+    },
+    {
+        "tarefa": "gerar uma lista de números primos até 50",
+        "nome_base": "codigo_numeros_primos",
+        "linguagem": "Python",
+        "extensao": ".py"
+    },
+    {
+        "tarefa": "implementar uma classe para representar uma Conta Bancária",
+        "nome_base": "java_conta_bancaria",
+        "linguagem": "Java",
+        "extensao": ".java"
+    },
+    {
+        "tarefa": "criar um programa que exiba a data atual",
+        "nome_base": "csharp_data_atual",
+        "linguagem": "C#",
+        "extensao": ".cs"
+    },
+    {
+        "tarefa": "criar uma página HTML básica com um título e um parágrafo",
+        "nome_base": "pagina_basica",
+        "linguagem": "HTML",
+        "extensao": ".html"
+    },
+    {
+        "tarefa": "estilizar um botão com cores e bordas",
+        "nome_base": "estilo_botao",
+        "linguagem": "CSS",
+        "extensao": ".css"
+    },
+    {
+        "tarefa": "escrever uma função que soma dois números",
+        "nome_base": "js_soma",
+        "linguagem": "JavaScript",
+        "extensao": ".js"
+    },
+    {
+        "tarefa": "criar uma query para selecionar todos os utilizadores de uma tabela",
+        "nome_base": "sql_select_utilizadores",
+        "linguagem": "SQL",
+        "extensao": ".sql"
+    }
+]

@@ -1,0 +1,53 @@
+{
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s [%(levelname)s] %(message)s",
+    "datefmt": "%Y-%m-%d %H:%M:%S"
+  },
+  "model": {
+    "summarization": {
+      "name": "sshleifer/distilbart-cnn-12-6",
+      "parameters": {
+        "max_length": 150,
+        "min_length": 50,
+        "do_sample": false
+      }
+    }
+  },
+  "agents": {
+    "initial_analyzer": {
+      "role": "Project Proposal Analyzer",
+      "temperature": 0.7,
+      "max_tokens": 4096
+    },
+    "market_research": {
+      "role": "Market Research Specialist",
+      "temperature": 0.7,
+      "max_tokens": 4096
+    },
+    "technical_evaluation": {
+      "role": "Technical Feasibility Expert",
+      "temperature": 0.7,
+      "max_tokens": 4096
+    },
+    "financial_analyst": {
+      "role": "Financial Viability Assessor",
+      "temperature": 0.7,
+      "max_tokens": 4096
+    },
+    "risk_assessment": {
+      "role": "Risk Management Specialist",
+      "temperature": 0.7,
+      "max_tokens": 4096
+    },
+    "executive_summarizer": {
+      "role": "Executive Summary Specialist",
+      "temperature": 0.7,
+      "max_tokens": 4096
+    }
+  },
+  "process": {
+    "type": "sequential",
+    "verbose": true
+  }
+}

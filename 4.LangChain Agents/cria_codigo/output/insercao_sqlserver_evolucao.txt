@@ -1,0 +1,208 @@
+Log de Evolução de Código - Tarefa: Estabelecer a conexão com o SQL Server e inserir os dados da contagem de clips., Linguagem: Python
+Timestamp inicial: 2025-03-07 21:50:33
+
+Iteração 1:
+Código Gerado na Iteração 1:
+```
+import pyodbc
+import csv
+
+# Define connection parameters
+server = 'your_server_name'
+database = 'your_database_name'
+username = 'your_username'
+password = 'your_password'
+
+# Establish the connection
+cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
+
+# Create a cursor object
+cursor = cnxn.cursor()
+
+# Open the CSV file
+with open('clips_count.csv', 'r') as f:
+    reader = csv.reader(f)
+    
+    # Iterate over each row in the CSV file
+    for row in reader:
+        # Insert data into SQL Server table
+        query = "INSERT INTO [your_table_name] ([column1], [column2]) VALUES (?, ?)"
+        cursor.execute(query, (row[0], row[1]))
+
+# Commit the changes
+cnxn.commit()
+
+# Close the connection
+cnxn.close()
+```
+Código da Iteração 1 guardado em: output\insercao_sqlserver_i1.py
+
+Iteração 2:
+Código Gerado na Iteração 2:
+```
+import pyodbc
+import csv
+
+# Define connection parameters
+server = 'your_server_name'
+database = 'your_database_name'
+username = 'your_username'
+password = 'your_password'
+table_name = 'your_table_name'
+column1 = 'column1'
+column2 = 'column2'
+
+# Establish the connection
+cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + server + ';DATABASE=' + database + ';UID=' + username + ';PWD=' + password)
+
+# Create a cursor object
+cursor = cnxn.cursor()
+
+# Open the CSV file
+with open('clips_count.csv', 'r') as f:
+    reader = csv.reader(f)
+    
+    # Iterate over each row in the CSV file
+    for row in reader:
+        query = "INSERT INTO [{}] ([{}], [{}]) VALUES (?, ?)".format(table_name, column1, column2)
+        cursor.execute(query, (row[0], row[1]))
+
+# Commit the changes
+cnxn.commit()
+
+# Close the connection
+cnxn.close()
+```
+Código da Iteração 2 guardado em: output\insercao_sqlserver_i2.py
+
+Iteração 3:
+Código Gerado na Iteração 3:
+```
+import pyodbc
+import csv
+
+SERVER = 'your_server_name'
+DATABASE = 'your_database_name'
+USERNAME = 'your_username'
+PASSWORD = 'your_password'
+TABLE_NAME = 'your_table_name'
+COLUMN1 = 'column1'
+COLUMN2 = 'column2'
+
+cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + SERVER + ';DATABASE=' + DATABASE + ';UID=' + USERNAME + ';PWD=' + PASSWORD)
+
+cursor = cnxn.cursor()
+
+with open('clips_count.csv', 'r') as f:
+    reader = csv.reader(f)
+    next(reader)  # Skip the header
+    query = "INSERT INTO [{}] ([{}], [{}]) VALUES (?, ?)".format(TABLE_NAME, COLUMN1, COLUMN2)
+    cursor.executemany(query, ((row[0], row[1]) for row in reader))
+
+cnxn.commit()
+
+cnxn.close()
+```
+Código da Iteração 3 guardado em: output\insercao_sqlserver_i3.py
+
+Iteração 4:
+Código Gerado na Iteração 4:
+```
+import pyodbc
+import csv
+
+SERVER = 'your_server_name'
+DATABASE = 'your_database_name'
+USERNAME = 'your_username'
+PASSWORD = 'your_password'
+TABLE_NAME = 'your_table_name'
+COLUMN1 = 'column1'
+COLUMN2 = 'column2'
+
+cnxn_string = f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={SERVER};DATABASE={DATABASE};UID={USERNAME};PWD={PASSWORD}"
+cnxn = pyodbc.connect(cnxn_string)
+
+cursor = cnxn.cursor()
+
+with open('clips_count.csv', 'r') as file:
+    reader = csv.reader(file)
+    next(reader)  # Skip the header
+    query = "INSERT INTO [{}] ([{}], [{}]) VALUES (?, ?)".format(TABLE_NAME, COLUMN1, COLUMN2)
+    data = [(row[0], row[1]) for row in reader]
+    cursor.executemany(query, data)
+
+cnxn.commit()
+
+cnxn.close()
+```
+Código da Iteração 4 guardado em: output\insercao_sqlserver_i4.py
+
+Iteração 5:
+Código Gerado na Iteração 5:
+```
+import pyodbc
+import csv
+
+SERVER = 'your_server_name'
+DATABASE = 'your_database_name'
+USERNAME = 'your_username'
+PASSWORD = 'your_password'
+TABLE_NAME = 'your_table_name'
+COLUMN1 = 'column1'
+COLUMN2 = 'column2'
+
+cnxn_string = f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={SERVER};DATABASE={DATABASE};UID={USERNAME};PWD={PASSWORD}"
+
+try:
+    cnxn = pyodbc.connect(cnxn_string)
+except pyodbc.Error as e:
+    print(f"Error connecting to the database: {e}")
+else:
+    cursor = cnxn.cursor()
+
+    with open('clips_count.csv', 'r') as file:
+        reader = csv.reader(file)
+        next(reader)  # Skip the header
+        query = f"INSERT INTO [{TABLE_NAME}] ([{COLUMN1}], [{COLUMN2}]) VALUES (?, ?)"
+        data = [(row[0], row[1]) for row in reader]
+        cursor.executemany(query, data)
+
+    cnxn.commit()
+    cnxn.close()
+```
+Código da Iteração 5 guardado em: output\insercao_sqlserver_i5_final.py
+
+
+Código Final Melhorado:
+```
+import pyodbc
+import csv
+
+SERVER = 'your_server_name'
+DATABASE = 'your_database_name'
+USERNAME = 'your_username'
+PASSWORD = 'your_password'
+TABLE_NAME = 'your_table_name'
+COLUMN1 = 'column1'
+COLUMN2 = 'column2'
+
+cnxn_string = f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={SERVER};DATABASE={DATABASE};UID={USERNAME};PWD={PASSWORD}"
+
+try:
+    cnxn = pyodbc.connect(cnxn_string)
+except pyodbc.Error as e:
+    print(f"Error connecting to the database: {e}")
+else:
+    cursor = cnxn.cursor()
+
+    with open('clips_count.csv', 'r') as file:
+        reader = csv.reader(file)
+        next(reader)  # Skip the header
+        query = f"INSERT INTO [{TABLE_NAME}] ([{COLUMN1}], [{COLUMN2}]) VALUES (?, ?)"
+        data = [(row[0], row[1]) for row in reader]
+        cursor.executemany(query, data)
+
+    cnxn.commit()
+    cnxn.close()
+```
+Timestamp final: 2025-03-07 21:50:52

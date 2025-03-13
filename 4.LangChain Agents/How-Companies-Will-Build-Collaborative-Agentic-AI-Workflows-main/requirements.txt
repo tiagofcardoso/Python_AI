@@ -1,0 +1,30 @@
+crewai
+crewai-tools
+transformers
+onnxruntime
+torch
+sentencepiece
+protobuf
+
+# Visualization and Output Formatting
+tabulate
+termcolor
+colorama
+tqdm
+rich
+
+# Data Processing
+pandas
+numpy
+scipy
+
+# Utilities
+python-dateutil
+pytz
+pyyaml
+jinja2
+humanize
+
+# Optional Performance Monitoring
+psutil
+memory-profiler

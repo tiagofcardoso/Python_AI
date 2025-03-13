@@ -1,0 +1,176 @@
+Log de Evolução de Código - Tarefa: Criar rotinas de monitoramento e registro de logs do sistema de automação., Linguagem: Python
+Timestamp inicial: 2025-03-07 21:50:52
+
+Iteração 1:
+Código Gerado na Iteração 1:
+```
+import logging
+import datetime
+
+# Configurando o logger
+logging.basicConfig(filename='system_logs.log', level=logging.INFO)
+
+def monitor_system():
+    while True:
+        # Monitorar sistema...
+        logging.info(f'Sistema em funcionamento às {datetime.datetime.now()}')
+
+if __name__ == '__main__':
+    monitor_system()
+```
+Código da Iteração 1 guardado em: output\monitoramento_logs_i1.py
+
+Iteração 2:
+Código Gerado na Iteração 2:
+```
+import logging
+from datetime import datetime
+
+logging.basicConfig(filename='system_logs.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+def monitor_system():
+    while True:
+        try:
+            # Monitorar sistema...
+            logging.info(f'Sistema em funcionamento às {datetime.now()}')
+        except Exception as e:
+            logging.error(f'Erro ao monitorar sistema: {e}')
+
+if __name__ == '__main__':
+    monitor_system()
+```
+Código da Iteração 2 guardado em: output\monitoramento_logs_i2.py
+
+Iteração 3:
+Código Gerado na Iteração 3:
+```
+import logging
+from datetime import datetime
+
+logging.basicConfig(filename='system_logs.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+class SystemMonitor:
+    def __init__(self):
+        self.logger = logging.getLogger('SystemMonitor')
+        self.logger.setLevel(logging.INFO)
+
+    def monitor(self):
+        while True:
+            try:
+                # Monitorar sistema...
+                self.logger.info(f'Sistema em funcionamento às {datetime.now()}')
+                self.sleep(60)  # Aguardar 1 minuto antes de reavaliar
+            except Exception as e:
+                self.logger.error(f'Erro ao monitorar sistema: {e}')
+
+    def sleep(self, seconds):
+        from time import sleep
+        sleep(seconds)
+
+if __name__ == '__main__':
+    SystemMonitor().monitor()
+```
+Código da Iteração 3 guardado em: output\monitoramento_logs_i3.py
+
+Iteração 4:
+Código Gerado na Iteração 4:
+```
+import logging
+import time
+from datetime import datetime
+
+logging.basicConfig(filename='system_logs.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+class SystemMonitor:
+    def __init__(self):
+        self.logger = logging.getLogger('SystemMonitor')
+        self.logger.setLevel(logging.INFO)
+
+    def monitor(self):
+        while True:
+            try:
+                # Monitorar sistema...
+                self.logger.info(f'Sistema em funcionamento às {datetime.now()}')
+                time.sleep(60)  # Aguardar 1 minuto antes de reavaliar
+            except Exception as e:
+                self.logger.error(f'Erro ao monitorar sistema: {e}')
+
+    def sleep(self, seconds):
+        time.sleep(seconds)
+
+if __name__ == '__main__':
+    SystemMonitor().monitor()
+```
+Código da Iteração 4 guardado em: output\monitoramento_logs_i4.py
+
+Iteração 5:
+Código Gerado na Iteração 5:
+```
+import logging
+import time
+from datetime import datetime
+
+logging.basicConfig(filename='system_logs.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+class SystemMonitor:
+    def __init__(self):
+        self.logger = logging.getLogger('SystemMonitor')
+        self.logger.setLevel(logging.INFO)
+        self.monitoring_thread = None
+
+    def start_monitor(self):
+        self.monitoring_thread = threading.Thread(target=self.monitor)
+        self.monitoring_thread.daemon = True
+        self.monitoring_thread.start()
+
+    def monitor(self):
+        try:
+            while True:
+                self.logger.info(f'Sistema em funcionamento às {datetime.now()}')
+                time.sleep(60)  # Aguardar 1 minuto antes de reavaliar
+        except Exception as e:
+            self.logger.error(f'Erro ao monitorar sistema: {e}')
+
+    def sleep(self, seconds):
+        time.sleep(seconds)
+
+if __name__ == '__main__':
+    SystemMonitor().start_monitor()
+```
+Código da Iteração 5 guardado em: output\monitoramento_logs_i5_final.py
+
+
+Código Final Melhorado:
+```
+import logging
+import time
+from datetime import datetime
+
+logging.basicConfig(filename='system_logs.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+class SystemMonitor:
+    def __init__(self):
+        self.logger = logging.getLogger('SystemMonitor')
+        self.logger.setLevel(logging.INFO)
+        self.monitoring_thread = None
+
+    def start_monitor(self):
+        self.monitoring_thread = threading.Thread(target=self.monitor)
+        self.monitoring_thread.daemon = True
+        self.monitoring_thread.start()
+
+    def monitor(self):
+        try:
+            while True:
+                self.logger.info(f'Sistema em funcionamento às {datetime.now()}')
+                time.sleep(60)  # Aguardar 1 minuto antes de reavaliar
+        except Exception as e:
+            self.logger.error(f'Erro ao monitorar sistema: {e}')
+
+    def sleep(self, seconds):
+        time.sleep(seconds)
+
+if __name__ == '__main__':
+    SystemMonitor().start_monitor()
+```
+Timestamp final: 2025-03-07 21:51:05

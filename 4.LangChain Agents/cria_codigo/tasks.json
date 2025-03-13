@@ -1,0 +1,32 @@
+[
+    {
+        "tarefa": "Desenvolver a comunicação com a máquina via protocolo Modbus para obter a contagem de clips.",
+        "nome_base": "comunicacao_modbus",
+        "linguagem": "Python",
+        "extensao": ".py"
+    },
+    {
+        "tarefa": "Implementar a leitura dos dados de contagem de clips a partir da máquina automatizada.",
+        "nome_base": "leitura_contagem_clips",
+        "linguagem": "Python",
+        "extensao": ".py"
+    },
+    {
+        "tarefa": "Estabelecer a conexão com o SQL Server e inserir os dados da contagem de clips.",
+        "nome_base": "insercao_sqlserver",
+        "linguagem": "Python",
+        "extensao": ".py"
+    },
+    {
+        "tarefa": "Criar rotinas de monitoramento e registro de logs do sistema de automação.",
+        "nome_base": "monitoramento_logs",
+        "linguagem": "Python",
+        "extensao": ".py"
+    },
+    {
+        "tarefa": "Realizar testes de integração e validação do sistema completo.",
+        "nome_base": "teste_integracao",
+        "linguagem": "Python",
+        "extensao": ".py"
+    }
+]
