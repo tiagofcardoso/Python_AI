@@ -101,4 +101,4 @@ This class coordinates the interaction between the user, the LLM, and the databa
 Run the main script to start the command-line interface:
 
 ```bash
-python mcp_server.py
+python finacial_analyser.py
