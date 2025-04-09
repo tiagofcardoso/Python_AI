@@ -1,0 +1,41 @@
+# Exemplos de consultas para o MCP Server
+
+## Consultas de anu00e1lise de au00e7u00f5es
+
+1. Qual foi o preu00e7o mu00e9dio da au00e7u00e3o PETR4 nos u00faltimos 30 dias?
+
+2. Analise a volatilidade da au00e7u00e3o VALE3 nos u00faltimos 60 dias.
+
+3. Qual foi o volume total negociado da au00e7u00e3o ITUB4 na semana passada?
+
+4. Quais foram os dias em que a au00e7u00e3o MGLU3 teve maior variau00e7u00e3o percentual no u00faltimo mu00eas?
+
+5. Compare o desempenho das au00e7u00f5es PETR4 e VALE3 nos u00faltimos 30 dias.
+
+## Consultas sobre empresas
+
+1. Quais empresas estu00e3o listadas no setor de tecnologia?
+
+2. Me du00ea informau00e7u00f5es sobre a empresa Petrobras.
+
+3. Quais su00e3o as 3 empresas com maior volume mu00e9dio negociado no u00faltimo mu00eas?
+
+## Consultas de mercado
+
+1. Qual foi o dia com maior volume total negociado no u00faltimo mu00eas?
+
+2. Quais au00e7u00f5es tiveram aumento de preu00e7o por mais de 5 dias consecutivos?
+
+3. Qual setor teve o melhor desempenho no u00faltimo trimestre?
+
+## Consultas que nu00e3o necessitam de banco de dados
+
+1. O que u00e9 um dividendo?
+
+2. Explique o que u00e9 o u00edndice P/L (Preu00e7o/Lucro).
+
+3. Quais su00e3o as principais estratu00e9gias de investimento em au00e7u00f5es?
+
+4. Como funciona o mercado de au00e7u00f5es no Brasil?
+
+5. O que u00e9 uma au00e7u00e3o preferenciau00e7u00e3o e como ela difere de uma au00e7u00e3o ordinu00e1ria?
